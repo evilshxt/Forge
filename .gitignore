@@ -1,0 +1,47 @@
+# Dependencies & build output — uncomment as stacks land.
+# No stack is assumed yet; this file stays minimal on purpose.
+
+# Secrets & local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Generic build output
+dist/
+build/
+out/
+coverage/
+*.log
+
+# Node (if/when used)
+# node_modules/
+# npm-debug.log*
+# .npm/
+
+# Python (if/when used)
+# __pycache__/
+# *.py[cod]
+# .venv/
+# venv/
+# .pytest_cache/
+
+# Go (if/when used)
+# /bin/
+
+# Temp
+tmp/
+temp/
